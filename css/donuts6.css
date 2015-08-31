@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    color: Black;
+    background-color: #FFFFFF;
+    background: url("http://i.imgur.com/1Sn6TLa.jpg");
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 32pt;
+    line-height: 1;
+    margin: 0;
+    color: #775577;
+}
+
+h3 {
+  margin: 10px 0 0 0;
+}
+
+table {
+  background-color: #BB99BB;
+  color: Black;
+  opacity: 0.75;
+ }
+
+td {
+  background-color: #CCBBCC;
+}
+
+.subtitle {
+ 	color: #996699;
+}
+
+#disclaimer {
+  font-size: 6pt;
+  font-style: italic;
+}
+
+img {
+  opacity: .25;
+}
+

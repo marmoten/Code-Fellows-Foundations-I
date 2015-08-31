@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>David's Amazing Donut Estimator</title>
+  <link rel="stylesheet" type="text/css" href="css/donuts6.css">
+</head>
+  <body>
+    <p></p>
+    <h1>David's Amazing Donut Estimator</h1>
+    <h3 class="subtitle">(Specially designed for the Top Pot Doughnuts World Empire)</h3>
+    <p></p>
+    <p>This estimator calculates donuts per day and donuts per hour needed for each location of Top Pot Doughnuts.</p>
+    <p>To utilize this handy calculator, click on a location below to show the recommended production for that shop.</p>
+    <table>
+      <tr>
+        <th>Location</th>
+        <th>Donuts Per Hour</th>
+        <th>Donuts Per Day</th>
+      </tr>
+    </table>
+    <h1> </h1>
+    <p>To add a new location, fill out the form below:</p>
+    <form id="userAddShopForm">
+    <p>Location: <input type="text" id="locationName" size="30" maxlength="50" /></p>
+    <p>Number of hours location is open each day: <input type="number" id="hours" size="5" maxlength="5" /></p>
+    <p>Minimum customers per hour: <input type="number" id="minCustomerPerHour" size="5" maxlength="5" /></p>
+    <p>Maximum customers per hour: <input type="number" id="maxCustomerPerHour" size="5" maxlength="5" /></p>
+    <p>Average donuts per customer: <input type="number" id="avgDonutsPerCustomer" size="5" maxlength="5" /></p>
+    <input type="submit" id="newShopButton" value="Click here to submit new location"/>
+    </form>
+    <p id="disclaimer">Disclaimer: The creator of this estimator bears no resposibility for the over- or under-production of donuts at any location, at any time.</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+    window.jQuery  || document.write('<script src="js/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/donuts6.js"></script>
+  </body>
+</html>
